@@ -6,4 +6,12 @@ slick {
     - <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -> <head> (before main css)
     - <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -> <body> (before main js)
     - <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -> <body> (before main js)
+    - script -> js
+}
+
+tiny-slider {
+    - https://github.com/ganlanyuan/tiny-slider
+    - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -> <head> (before main css)
+    - <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -> <body> (before main js)
+    - script -> js
 }
